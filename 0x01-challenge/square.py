@@ -1,5 +1,7 @@
 #!/usr/bin/python3
 """Class square """
+
+
 class square:
     """ Documentation """
     width = 0
@@ -19,6 +21,7 @@ class square:
     def __str__(self):
         """ Documentation """
         return "{}/{}".format(self.width, self.width)
+
 
 if __name__ == "__main__":
 
