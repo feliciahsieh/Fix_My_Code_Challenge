@@ -1,0 +1,325 @@
+//Taken from API query, https://maps.googleapis.com/maps/api/directions/json?origin=94546&destination=koak&key=AIzaSyBoRvW47xXGNrYz-LYR3TLHC-p18sPFIes
+
+{
+   "geocoded_waypoints" : [
+      {
+         "geocoder_status" : "OK",
+         "place_id" : "ChIJk4EoJ_6Rj4ARomkWF9tn3Kk",
+         "types" : [ "postal_code" ]
+      },
+      {
+         "geocoder_status" : "OK",
+         "place_id" : "ChIJQabAAlSEj4ARYHQBAw8MY7A",
+         "types" : [ "airport", "establishment", "point_of_interest" ]
+      }
+   ],
+   "routes" : [
+      {
+         "bounds" : {
+            "northeast" : {
+               "lat" : 37.7325325,
+               "lng" : -122.0737103
+            },
+            "southwest" : {
+               "lat" : 37.6887003,
+               "lng" : -122.201728
+            }
+         },
+         "copyrights" : "Map data ©2018 Google",
+         "legs" : [
+            {
+               "distance" : {
+                  "text" : "10.9 mi",
+                  "value" : 17585
+               },
+               "duration" : {
+                  "text" : "19 mins",
+                  "value" : 1126
+               },
+               "end_address" : "Oakland International Airport (OAK), 1 Airport Dr, Oakland, CA 94621, USA",
+               "end_location" : {
+                  "lat" : 37.7201368,
+                  "lng" : -122.201728
+               },
+               "start_address" : "Castro Valley, CA 94546, USA",
+               "start_location" : {
+                  "lat" : 37.7186499,
+                  "lng" : -122.0780926
+               },
+               "steps" : [
+                  {
+                     "distance" : {
+                        "text" : "272 ft",
+                        "value" : 83
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 21
+                     },
+                     "end_location" : {
+                        "lat" : 37.7179018,
+                        "lng" : -122.0781179
+                     },
+                     "html_instructions" : "Head \u003cb\u003esouth\u003c/b\u003e toward \u003cb\u003eProctor Rd\u003c/b\u003e",
+                     "polyline" : {
+                        "points" : "q|eeF`kbhVtCD"
+                     },
+                     "start_location" : {
+                        "lat" : 37.7186499,
+                        "lng" : -122.0780926
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.3 mi",
+                        "value" : 426
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 59
+                     },
+                     "end_location" : {
+                        "lat" : 37.7168697,
+                        "lng" : -122.0737103
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e onto \u003cb\u003eProctor Rd\u003c/b\u003e",
+                     "maneuver" : "turn-left",
+                     "polyline" : {
+                        "points" : "{weeFfkbhVA}@?sC?gB@aA?o@?o@?GHWVi@`@{@h@}@vAsCDK@EBE?I?E?GCM"
+                     },
+                     "start_location" : {
+                        "lat" : 37.7179018,
+                        "lng" : -122.0781179
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "1.8 mi",
+                        "value" : 2854
+                     },
+                     "duration" : {
+                        "text" : "6 mins",
+                        "value" : 355
+                     },
+                     "end_location" : {
+                        "lat" : 37.6912451,
+                        "lng" : -122.0738715
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e onto \u003cb\u003eRedwood Rd\u003c/b\u003e",
+                     "maneuver" : "turn-right",
+                     "polyline" : {
+                        "points" : "mqeeFtoahVrBDvDHn@@x@BjDDxABjA@lDFvA@h@?D?rCBbA@^?j@@`@?bA@lA?L?r@Az@@t@?pBB|B@rA?fD@n@@zA?vA@`A?r@AfCCRHl@@V?dAA`A?t@?f@?|@@p@@nAA\\?LOX?hAAdDCbDAj@AN?NBLD`@?b@?x@@~@Ab@A`@AtA?|B?X?P@f@?V?`B?J?NA^?^?d@?b@Ad@?b@?j@?PAz@?h@?T?pAAhAErAETA"
+                     },
+                     "start_location" : {
+                        "lat" : 37.7168697,
+                        "lng" : -122.0737103
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "1.1 mi",
+                        "value" : 1711
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 75
+                     },
+                     "end_location" : {
+                        "lat" : 37.6907368,
+                        "lng" : -122.0932679
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e to merge onto \u003cb\u003eI-580 W\u003c/b\u003e toward \u003cb\u003eOakland\u003c/b\u003e",
+                     "polyline" : {
+                        "points" : "iq`eFtpahV@T?T@X?VBb@BdAL~DBz@H~CB|A?@?@X|A?|B@N@`D?`DB`G@dE?~E@~H@nFB`JCnG?vA?fA@xB@jBB`BH~F"
+                     },
+                     "start_location" : {
+                        "lat" : 37.6912451,
+                        "lng" : -122.0738715
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "1.6 mi",
+                        "value" : 2648
+                     },
+                     "duration" : {
+                        "text" : "2 mins",
+                        "value" : 113
+                     },
+                     "end_location" : {
+                        "lat" : 37.690219,
+                        "lng" : -122.1229909
+                     },
+                     "html_instructions" : "Keep \u003cb\u003eleft\u003c/b\u003e at the fork to continue on \u003cb\u003eI-238 N\u003c/b\u003e, follow signs for \u003cb\u003eI-880\u003c/b\u003e",
+                     "maneuver" : "fork-left",
+                     "polyline" : {
+                        "points" : "cn`eF|iehV^|HBf@Bh@FbADr@Dx@FjAHhADz@Fv@H~ADj@Bb@TpDHtAHzAVxDdAhPNxCTpDBb@?DBV@D?JLpBZ~E`@vHPpDLxC@dB@vAArAArAAr@ExAI|AIlAI~@M|AQzAQxAYhC[jEWnEIdAABa@rEi@rGm@pH"
+                     },
+                     "start_location" : {
+                        "lat" : 37.6907368,
+                        "lng" : -122.0932679
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.4 mi",
+                        "value" : 586
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 22
+                     },
+                     "end_location" : {
+                        "lat" : 37.6909238,
+                        "lng" : -122.1295793
+                     },
+                     "html_instructions" : "Take exit \u003cb\u003e16B-17B\u003c/b\u003e on the \u003cb\u003eleft\u003c/b\u003e for \u003cb\u003eI-880 N\u003c/b\u003e toward \u003cb\u003eOakland\u003c/b\u003e/\u003cb\u003eHesperian Blvd\u003c/b\u003e/\u003cb\u003eSan Lorenzo\u003c/b\u003e",
+                     "maneuver" : "ramp-left",
+                     "polyline" : {
+                        "points" : "{j`eFtckhVMfB}@|K]~FGfACv@EnAEnAGtCAhB"
+                     },
+                     "start_location" : {
+                        "lat" : 37.690219,
+                        "lng" : -122.1229909
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.4 mi",
+                        "value" : 603
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 23
+                     },
+                     "end_location" : {
+                        "lat" : 37.6904982,
+                        "lng" : -122.1363643
+                     },
+                     "html_instructions" : "Keep \u003cb\u003eleft\u003c/b\u003e to continue toward \u003cb\u003eI-880 N\u003c/b\u003e",
+                     "maneuver" : "keep-left",
+                     "polyline" : {
+                        "points" : "go`eFzllhV?tA?\\@h@FdBPdDFhADd@@HFv@j@tGHlABvAAhBGbBOdB"
+                     },
+                     "start_location" : {
+                        "lat" : 37.6909238,
+                        "lng" : -122.1295793
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "3.8 mi",
+                        "value" : 6170
+                     },
+                     "duration" : {
+                        "text" : "4 mins",
+                        "value" : 232
+                     },
+                     "end_location" : {
+                        "lat" : 37.7290721,
+                        "lng" : -122.1861468
+                     },
+                     "html_instructions" : "Keep \u003cb\u003eleft\u003c/b\u003e to continue on \u003cb\u003eExit 17B\u003c/b\u003e, follow signs for \u003cb\u003eInterstate 880 N\u003c/b\u003e/\u003cb\u003eOakland\u003c/b\u003e and merge onto \u003cb\u003eI-880 N\u003c/b\u003e",
+                     "maneuver" : "keep-left",
+                     "polyline" : {
+                        "points" : "sl`eFfwmhVUvAGb@IZGVERITK^KXKZMZMXOXYh@S\\QZMVqCdFQXiAjBYh@}@lB_A|AiI|MuRp[A??@aFhIqCrEiIhMqJbPiAhBgFpIqBbDuCzE{HfMKNw@rA{AfCeBnCkDzFOVmClEwEvHiAjBuBdDKLkAbBaCvCiEpEq@l@kGvGyExEcEdEQRA?MLgAdAm@l@gDdDoDxDoApAoCtCkBlBoBpBiBhBsArAgAdA}ArAa@`@gCtBkA`AgA`A_LhJ"
+                     },
+                     "start_location" : {
+                        "lat" : 37.6904982,
+                        "lng" : -122.1363643
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.2 mi",
+                        "value" : 400
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 39
+                     },
+                     "end_location" : {
+                        "lat" : 37.7324386,
+                        "lng" : -122.1873093
+                     },
+                     "html_instructions" : "Take exit \u003cb\u003e35\u003c/b\u003e for \u003cb\u003e98th Avenue\u003c/b\u003e toward \u003cb\u003eOakland Airport\u003c/b\u003e",
+                     "maneuver" : "ramp-right",
+                     "polyline" : {
+                        "points" : "u}geFlnwhVWDIBIBKFGBWNMHu@d@_@TSLIDGDGDQHIBGDOFODKDI@IBK@U@Q?WAWCg@Eg@ESCM?K?K@KBQBKFOFKFIDUR"
+                     },
+                     "start_location" : {
+                        "lat" : 37.7290721,
+                        "lng" : -122.1861468
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "1.1 mi",
+                        "value" : 1704
+                     },
+                     "duration" : {
+                        "text" : "3 mins",
+                        "value" : 168
+                     },
+                     "end_location" : {
+                        "lat" : 37.7235874,
+                        "lng" : -122.2007973
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e onto \u003cb\u003e98th Ave\u003c/b\u003e",
+                     "maneuver" : "turn-left",
+                     "polyline" : {
+                        "points" : "wrheFtuwhVQTjAlBl@nADJFJ@BRd@JP@DFLVl@Vl@Nd@d@tAPp@z@pCt@bCtBdH|@fDZn@T|@J^FVRt@Ld@Pj@Vz@r@|B\\jAHVFNPj@HXJZFPNf@Nd@FR\\`AE^J`@Rf@DHPn@ZdAZx@N^JRXd@NTVVb@`@XRLHJDB@RJHBb@J`@Hb@DP@J?Z?TA^CpBOx@ItBU"
+                     },
+                     "start_location" : {
+                        "lat" : 37.7324386,
+                        "lng" : -122.1873093
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.2 mi",
+                        "value" : 400
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 19
+                     },
+                     "end_location" : {
+                        "lat" : 37.7201368,
+                        "lng" : -122.201728
+                     },
+                     "html_instructions" : "Continue onto \u003cb\u003eBessie Coleman Dr\u003c/b\u003e",
+                     "polyline" : {
+                        "points" : "m{feF~izhVnAGhA?X?\\@f@Bt@F|@NbAT`Bf@~@b@b@Vl@^JH"
+                     },
+                     "start_location" : {
+                        "lat" : 37.7235874,
+                        "lng" : -122.2007973
+                     },
+                     "travel_mode" : "DRIVING"
+                  }
+               ],
+               "traffic_speed_entry" : [],
+               "via_waypoint" : []
+            }
+         ],
+         "overview_polyline" : {
+            "points" : "q|eeF`kbhVtCDA}@?{F@iD`@aAjAyBbBkD?OCUtKT~NRzGDpDBrE?hVJxC@zDERHl@@|AA|E@`C?\\?LObBAhIEz@A\\H~D?xGCjB@|CAlHC~@?zCGhBG@j@HzCPzFL|F?BX|A?|BBpDBbLDt]B`JCnG?~CBdFL`Jn@rMz@bOpDvl@tA|U^jIB|DCfDGlCSjDW|Cc@tDYhC[jEa@tGc@vEcDja@e@fIIfCMdFA~D@fAXjGVpDt@bJ@`EWhE]zBa@|Aq@pBkAzBcErHcBtC}@lB_A|A_]nj@uJ~OiIhMqJbPqHzLoQvYsCzEqGjKuJ|O_EpGwApBaCvCiEpEq@l@kGvG}K~KSRMLuBrBgDdDoDxD_FfF{E~E}D|DeDxC}HzG_LhJWDSFy@d@sBnAk@Xs@Xu@Hi@A_AIuAIu@P[N_@XQTjAlBr@zAh@fAx@nBt@zBlAbEjDhL|@fDZn@`@|AZlAjBjGnBnGVx@\\`AE^^hAVx@v@~BZr@h@z@z@x@v@d@RJl@NdAN\\@p@ApCSnD_@nAGhA?v@@|AJ`Cd@`Bf@~@b@pAv@JH"
+         },
+         "summary" : "I-880 N",
+         "warnings" : [],
+         "waypoint_order" : []
+      }
+   ],
+   "status" : "OK"
+}
